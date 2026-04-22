@@ -1,7 +1,0 @@
-{
-    "parent": {"database_id": "ca5236a2-0796-4bc2-b33f-fafe59947dfe"},
-    "properties": {
-        "Name": {"title": [{"text": {"content": "Estudiar matemáticas"}}]},
-        "Hecho": {"checkbox": false}
-    }
-}

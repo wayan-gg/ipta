@@ -1,7 +1,0 @@
-{
-    "parent": {"database_id": "686870c6-6373-4a33-a46a-4eb9ee2560f9"},
-    "properties": {
-        "Name": {"title": [{"text": {"content": "Tarea de historia"}}]},
-        "Done": {"checkbox": false}
-    }
-}
