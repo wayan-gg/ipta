@@ -1,0 +1,8 @@
+{
+    "parent": {"database_id": "4ba9d489-9691-4db3-9e77-abf203fe2ab6"},
+    "properties": {
+        "Name": {"title": [{"text": {"content": "Estudiar dictado de español"}}]},
+        "Prioridad": {"select": {"name": "Baja"}},
+        "Hecho": {"checkbox": false}
+    }
+}

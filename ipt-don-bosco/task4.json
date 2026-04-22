@@ -1,0 +1,7 @@
+{
+    "parent": {"database_id": "b28fdaa6-a91c-44c7-ac17-cf0146ffe8d1"},
+    "properties": {
+        "Tarea": {"title": [{"text": {"content": "Estudiar dictado de español"}}]},
+        "Completado": {"checkbox": false}
+    }
+}
