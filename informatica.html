@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informática | IPT Don Bosco</title>
+    <link rel="icon" href="img/logo.png" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top">
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="logo">
+                <strong class="titulo">Instituto Profesional Y <br> Técnico Don Bosco</strong>
+            </a>
+            <div class="burger" id="burger">☰</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nostros.html">Nosotros</a></li>
+                <li class="submenu submenu-oferta">
+                    <a class="toggle">Oferta</a>
+                    <ul class="submenu-list">
+                        <li><a href="electronica.html">Electrónica</a></li>
+                        <li><a href="electricidad.html">Electricidad</a></li>
+                        <li><a href="refrigeracion.html">Climatización</a></li>
+                        <li><a href="informatica.html" class="active">Informática</a></li>
+                    </ul>
+                </li>
+                <li class="submenu submenu-profs">
+                    <a class="toggle">Profesores</a>
+                    <ul class="submenu-list">
+                        <li><a href="matutino.html">Matutino</a></li>
+                        <li><a href="vespertino.html">Vespertino</a></li>
+                    </ul>
+                </li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="seccion">
+        <h1 class="titulo">Bachiller en Informática</h1>
+
+        <div class="info-valores">
+            <p>
+                El Bachillerato en Informática del Instituto Profesional y Técnico Don Bosco prepara a los estudiantes para integrarse de manera competente al mundo de las tecnologías de la información. 
+                A lo largo del bachiller, los alumnos adquieren fundamentos sólidos en programación, redes, sistemas operativos y desarrollo web, aplicados a entornos reales de trabajo.
+            </p>
+            <p>
+                El plan de estudios combina formación académica general con especialización técnica, permitiendo al egresado continuar estudios superiores o incorporarse al mercado laboral con habilidades concretas y actualizadas.
+            </p>
+        </div>
+
+        <div style="background: var(--surface); padding: 30px; border-radius: var(--radius); box-shadow: var(--shadow); margin-bottom: 40px;">
+            <h2 style="color: var(--primary); margin-bottom: 20px; text-align: center;">Perfil del Egresado</h2>
+            <ul class="perfil-lista" style="list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px;">
+                <li style="padding: 10px; border-bottom: 1px solid var(--bg-color);">✅ Instala y administra sistemas operativos</li>
+                <li style="padding: 10px; border-bottom: 1px solid var(--bg-color);">✅ Desarrolla aplicaciones eficaces</li>
+                <li style="padding: 10px; border-bottom: 1px solid var(--bg-color);">✅ Diseña sitios web estáticos y dinámicos</li>
+                <li style="padding: 10px; border-bottom: 1px solid var(--bg-color);">✅ Administra bases de datos relacionales</li>
+                <li style="padding: 10px; border-bottom: 1px solid var(--bg-color);">✅ Configura redes de computadoras LAN</li>
+                <li style="padding: 10px; border-bottom: 1px solid var(--bg-color);">✅ Aplica lógica algorítmica</li>
+                <li style="padding: 10px; border-bottom: 1px solid var(--bg-color);">✅ Produce contenido digital multimedia</li>
+                <li style="padding: 10px; border-bottom: 1px solid var(--bg-color);">✅ Aplica principios de robótica</li>
+            </ul>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <h2 style="color: var(--primary); margin-bottom: 20px;">Plan de Estudios</h2>
+            <img src="img/PEO-MATICA.jpg" alt="Plan de Estudio Informática" style="max-width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--shadow);">
+        </div>
+    </main>
+
+    <footer>
+        <div class="contacto">
+            <strong style="font-size: 1.2rem; margin-bottom: 10px;">Contacto</strong>
+            <p>📍 Avenida 3a, Don Bosco, Panamá</p>
+            <p>📞 +507 500-5263</p>
+            <p>✉️ iptdonbosco2011@hotmail.com</p>
+            <p>🕒 Lunes a Viernes, 7:00 a.m. – 3:00 p.m.</p>
+        </div>
+        <div class="logo-footer">
+            <img src="img/logo-30.png" alt="logo 30 aniversario">
+        </div>
+        <div class="instagram">
+            <button id="btnInsta">
+                <img src="img/instagram1.png" alt="Instagram">
+            </button>
+            <strong>@ipt_donbosco</strong>
+        </div>
+        <p class="copyright">&copy; 2025 Instituto Profesional y Técnico Don Bosco.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
